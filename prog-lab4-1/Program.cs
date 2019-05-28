@@ -13,6 +13,7 @@ namespace prog_lab4_1
             string[] words = Text.Split(new Char[] { ' ', ',', '.', '(', ')' });
             char LastLetter = words[0][ (words[0].Length-1) ];
             int Count = 0;
+
             foreach (string a in words)
             {
             if (a.Length!=0 && a[a.Length - 1] == LastLetter)
